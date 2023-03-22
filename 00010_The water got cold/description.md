@@ -3,4 +3,4 @@
 > Define the following procedures:
 >
 > * `empty_thermos` that removes all the `water_in_thermos`, that is, it leaves the variable at 0;
-> * `fill_thermo` which sets our variable back to 1000.
+> * `` which sets our variable back to 1000.

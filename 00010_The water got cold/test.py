@@ -1,45 +1,42 @@
   
-  def test_vaciar_termo_deja_en_0_el_agua_del_termo_si_tenia_500(self):
-    global agua_del_termo
-    agua_del_termo = 500
-    vaciar_termo()
-    self.assertEqual(agua_del_termo, 0)
+  def test_empty_thermos_assigns_0_to_water_in_thermos_if_it_was_500(self):
+    global water_in_thermos
+    water_in_thermos = 500
+    empty_thermos()
+    self.assertEqual(water_in_thermos, 0)
 
-  
-  def test_vaciar_termo_deja_en_0_el_agua_del_termo_si_tenia_200(self):
-    global agua_del_termo
-    agua_del_termo = 200
-    vaciar_termo()
-    self.assertEqual(agua_del_termo, 0)
+  def test_empty_thermos_assigns_0_to_water_in_thermos_if_it_was_200(self):
+    global water_in_thermos
+    water_in_thermos = 200
+    empty_thermos()
+    self.assertEqual(water_in_thermos, 0)
 
+  def test_empty_thermos_assigns_0_to_water_in_thermos_if_it_was_1000(self):
+    global water_in_thermos
+    water_in_thermos = 1000
+    empty_thermos()
+    self.assertEqual(water_in_thermos, 0)
 
-  def test_vaciar_termo_deja_en_0_el_agua_del_termo_si_tenia_1000(self):
-    global agua_del_termo
-    agua_del_termo = 1000
-    vaciar_termo()
-    self.assertEqual(agua_del_termo, 0)
+  def test_empty_thermos_leaves_in_0_the_water_in_thermos_if_it_was_in_0(self):
+    global water_in_thermos
+    water_in_thermos = 0
+    empty_thermos()
+    self.assertEqual(water_in_thermos, 0)
 
+  def test_fill_thermos_assigns_1000_to_water_in_thermos_if_it_was_initially_80(self):
+    global water_in_thermos
+    water_in_thermos = 80
+    fill_thermos()
+    self.assertEqual(water_in_thermos, 1000)
 
-  def test_vaciar_termo_sigue_dejando_en_0_el_agua_si_ya_estaba_en_0(self):
-    global agua_del_termo
-    agua_del_termo = 0
-    vaciar_termo()
-    self.assertEqual(agua_del_termo, 0)
+  def test_fill_thermos_assigns_1000_to_water_in_thermos_if_it_was_initially_180(self):
+    global water_in_thermos
+    water_in_thermos = 180
+    fill_thermos()
+    self.assertEqual(water_in_thermos, 1000)
 
-  def test_llenar_termo_deja_en_1000_el_agua_del_termo_si_tenia_inicialmente_80(self):
-    global agua_del_termo
-    agua_del_termo = 80
-    llenar_termo()
-    self.assertEqual(agua_del_termo, 1000)
-
-  def test_llenar_termo_deja_en_1000_el_agua_del_termo_si_tenia_inicialmente_180(self):
-    global agua_del_termo
-    agua_del_termo = 180
-    llenar_termo()
-    self.assertEqual(agua_del_termo, 1000)
-
-  def test_llenar_termo_deja_en_1000_el_agua_del_termo_si_tenia_inicialmente_840(self):
-    global agua_del_termo
-    agua_del_termo = 840
-    llenar_termo()
-    self.assertEqual(agua_del_termo, 1000)
+  def test_fill_thermos_assigns_1000_to_water_in_thermos_if_it_was_initially_840(self):
+    global water_in_thermos
+    water_in_thermos = 840
+    fill_thermos()
+    self.assertEqual(water_in_thermos, 1000)
