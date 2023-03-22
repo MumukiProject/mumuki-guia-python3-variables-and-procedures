@@ -1,3 +1,3 @@
-¡Excelente! :clap:
+Excellent! :clap:
 
-Con lo que venimos haciendo cualquier función puede utilizar a las variables, pero ¿qué pasa si no queremos que eso pase? :thinking:
+As you can see, any function can access these new variables, but what if we don't want that to happen? :thinking:

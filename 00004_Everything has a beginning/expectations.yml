@@ -2,13 +2,13 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:ascensor_sobrecargado
+  inspection: DeclaresFunction:elevator_overloaded
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: ascensor_sobrecargado
-  inspection: Uses:peso_promedio_persona_en_kilogramos
+  binding: elevator_overloaded
+  inspection: Uses:average_person_weight_in_kilograms
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: ascensor_sobrecargado
-  inspection: Uses:carga_maxima_en_kilogramos
+  binding: elevator_overloaded
+  inspection: Uses:maximum_load_in_kilograms
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:ascensor_sobrecargado
+  inspection: DeclaresComputationWithArity1:elevator_overloaded
