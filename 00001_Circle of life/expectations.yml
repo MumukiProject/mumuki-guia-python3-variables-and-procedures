@@ -2,13 +2,13 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:circle_perimeter
+  inspection: DeclaresFunction:perimetro_circulo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:circle_area
+  inspection: DeclaresFunction:area_circulo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:circle_perimeter
+  inspection: DeclaresComputationWithArity1:perimetro_circulo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:circle_area
+  inspection: DeclaresComputationWithArity1:area_circulo
