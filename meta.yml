@@ -1,6 +1,6 @@
 ---
-name: Variables y procedimientos
-locale: es
+name: Variables and procedures
+locale: en
 type: learning
 beta: false
 teacher_info: ''
@@ -21,4 +21,4 @@ order:
 - 12
 - 13
 - 14
-private: false
+private: true
