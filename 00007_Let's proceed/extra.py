@@ -1,1 +1,1 @@
-pesos_en_mi_billetera = 0
+dollars_in_my_pocket = 0

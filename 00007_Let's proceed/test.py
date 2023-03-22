@@ -1,15 +1,15 @@
   
-  def test_el_aumentar_fortuna_duplica_variable_global_pesos_en_mi_billetera(self):
-    global pesos_en_mi_billetera
-    pesos_en_mi_billetera = 100
-    aumentar_fortuna()
-    self.assertEqual(pesos_en_mi_billetera, 200)
+  def test_increase_fortune_duplicated_the_global_variable_dollars_in_my_pocket(self):
+    global dollars_in_my_pocket
+    dollars_in_my_pocket = 100
+    increase_fortune()
+    self.assertEqual(dollars_in_my_pocket, 200)
 
 
-  def test_el_aumentar_fortuna_se_puede_llamar_muchas_veces(self):
-    global pesos_en_mi_billetera
-    pesos_en_mi_billetera = 30
-    aumentar_fortuna()
-    aumentar_fortuna()
-    aumentar_fortuna()
-    self.assertEqual(pesos_en_mi_billetera, 240)
+  def test_increase_fortune_can_be_invoked_several_times(self):
+    global dollars_in_my_pocket
+    dollars_in_my_pocket = 30
+    increase_fortune()
+    increase_fortune()
+    increase_fortune()
+    self.assertEqual(dollars_in_my_pocket, 240)
