@@ -11,4 +11,4 @@ progressive_expectations: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_fails
-name: Esto no tiene valor
+name: No value
