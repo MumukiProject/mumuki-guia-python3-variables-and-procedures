@@ -1,15 +1,15 @@
 
-  def test_saludar_a_gus_a_las_11_le_dice_buenos_dias(self):
-    self.assertEquals(saludar_a("Gus", 11), "¡Buenos días Gus!")
+  def test_greet_to_Umi_at_11_returns_good_morning(self):
+    self.assertEquals(greet_to("Umi", 11), "Good morning Umi!")
     
-  def test_saludar_a_may_a_las_12_le_dice_buenas_tardes(self):
-    self.assertEquals(saludar_a("May", 12), "¡Buenas tardes May!")
+  def test_greet_to_May_at_12_returns_good_afternoon(self):
+    self.assertEquals(greet_to("May", 12), "Good afternoon May!")
     
-  def test_saludar_a_lu_a_las_18_le_dice_buenas_tardes(self):
-    self.assertEquals(saludar_a("Lu", 18), "¡Buenas tardes Lu!")
+  def test_greet_to_Lu_at_18_returns_good_afternoon(self):
+    self.assertEquals(greet_to("Lu", 18), "Good afternoon Lu!")
     
-  def test_saludar_a_guille_a_las_19_le_dice_buenas_noches(self):
-    self.assertEquals(saludar_a("Guille", 19), "¡Buenas noches Guille!")
+  def test_greet_to_Dani_at_19_returns_good_evening(self):
+    self.assertEquals(greet_to("Dani", 19), "Good evening Dani!")
   
-  def test_saludar_a_jor_a_las_20_le_dice_buenas_noches(self):
-    self.assertEquals(saludar_a("Jor", 20), "¡Buenas noches Jor!")  
+  def test_greet_to_Feli_at_20_returns_good_evening(self):
+    self.assertEquals(greet_to("Feli", 20), "Good evening Feli!")
