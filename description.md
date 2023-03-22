@@ -1,3 +1,3 @@
-Cuando programamos, ¿siempre vamos a querer retornar algo? ¿Habrá alguna especie de función que no retorne? Y si no retorna, ¿es una función? :thinking:
+Do we always have to return something when we program? Are there functions that don't return? Or to put it another way, is a function that doesn't return a function at all? :thinking:
 
-En esta lección vamos a conocer a las variables y los procedimientos, dos herramientas que nos van a pemitir solucionar nuevos tipos problemas y hacer programas más complejos. :sunglasses:
+In this lesson, we'll learn about variables and procedures, two tools we can use to solve new kinds of problems and create more complex programs :sunglasses:
