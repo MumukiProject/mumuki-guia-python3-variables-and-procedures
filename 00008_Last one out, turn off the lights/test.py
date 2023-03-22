@@ -1,17 +1,15 @@
   
-  def test_si_la_mochila_estaba_abierta_al_ejecutar_usar_cierre_pasa_a_estar_cerrada(self):
-    usar_cierre()
-    self.assertFalse(mochila_abierta)
+  def test_if_backpack_is_open_when_invoking_use_zip_it_becomes_closed(self):
+    use_zip()
+    self.assertFalse(backpack_open)
   
+  def test_if_backpack_is_closed_when_invoking_use_zip_it_becomes_open(self):
+    global backpack_open
+    backpack_open = False
+    use_zip()
+    self.assertTrue(backpack_open)
   
-  def test_si_la_mochila_estaba_cerrada_al_ejecutar_usar_cierre_pasa_a_estar_abierta(self):
-    global mochila_abierta
-    mochila_abierta = False
-    usar_cierre()
-    self.assertTrue(mochila_abierta)
-  
-  
-  def test_si_la_mochila_estaba_abierta_al_ejecutar_usar_cierre_dos_veces_sigue_estando_abierta(self):
-    usar_cierre()
-    usar_cierre()
-    self.assertTrue(mochila_abierta)
+  def test_if_backpack_is_open_when_invoking_use_zip_two_times_it_remains_open(self):
+    use_zip()
+    use_zip()
+    self.assertTrue(backpack_open)
