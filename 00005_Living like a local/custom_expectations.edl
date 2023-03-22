@@ -1,2 +1,2 @@
-expectation "Es necesario utilizar la variable `final_de_saludo` en las tres ramas de la alternativa condicional para evitar repetir lógica. Tené en cuenta qué secuencias se repiten para incluirlas dentro de esta variable.":
-  count(uses `final_de_saludo`) > 3;
+expectation "It is necessary to use the variable `end_of_greeting` in all three branches of the conditional statements to avoid repeating logic. Keep in mind which sequences are repeated to assign them to this variable.":
+  count(uses `end_of_greeting`) > 3;

@@ -1,8 +1,8 @@
-¡Excelente! :raised_hands:
+Excellent! :raised_hands:
 
-Para resumir lo visto:
+To summarize what we have seen:
 
-* las variables globales se inicializan por fuera de las funciones y pueden ser accedidas desde cualquier lugar del programa;
-* las variables locales pueden ser accedidas solo desde la función donde la inicializamos. 
+* global variables are initialized outside of functions and can be accessed from anywhere in the program;
+* local variables can be accessed only from the function where it was initialized.
 
-Si bien ahora conocemos los dos tipos de variables no abusemos de su uso. Recordemos que las variables nos sirven para utilizar un mismo valor en más de un lugar y evitar la repetición de lógica.
+Although we have met these two types of variables, let's not over use. Remember that variables help us to use the same value in more than one place and avoid repetition of logic.

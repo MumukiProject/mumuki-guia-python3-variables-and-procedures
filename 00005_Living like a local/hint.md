@@ -1,1 +1,1 @@
-Para determinar el valor de la variable local `final_de_saludo` es importante detectar qué es lo que se repite en cada una de las ramas del `if`. :wink:
+To determine the value of the local variable `end_of_greeting` it is important to detect what is repeated in each of the branches of the `if`. :wink:
