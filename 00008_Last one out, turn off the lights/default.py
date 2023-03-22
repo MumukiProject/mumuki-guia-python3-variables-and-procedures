@@ -1,1 +1,1 @@
-mochila_abierta = True
+backpack_open = True
