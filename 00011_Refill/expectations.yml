@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresProcedure:cargar_termo
+  inspection: DeclaresProcedure:refill_thermos
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:cargar_termo
+  inspection: DeclaresComputationWithArity1:refill_thermos
