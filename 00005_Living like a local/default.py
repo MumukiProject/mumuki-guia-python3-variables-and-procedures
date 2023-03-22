@@ -1,7 +1,7 @@
-def saludar_a(quien, horario):
-  if horario < 12:
-    return "¡Buenos días " + quien + "!"
-  elif horario < 19:
-    return "¡Buenas tardes " + quien + "!"
+def greet_to(who, hour):
+  if hour < 12:
+    return "Good morning " + who + "!"
+  elif hour < 19:
+    return "Good afternoon " + who + "!"
   else: 
-    return "¡Buenas noches " + quien + "!"
+    return "Good evening " + who + "!"
