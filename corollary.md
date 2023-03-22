@@ -1,8 +1,8 @@
-¡Perfecto! :ok_hand:
+Bravo! 👏👏
 
-A lo largo de esta lección hiciste muchas cosas nuevas:
+You learned a lot of new things in this lesson:
 
-* conociste los procedimientos en el lenguaje Python, que si bien se definen igual que las funciones son bien distintos; :eyes:
-* utilizaste los dos tipos de variables, locales y globales, y aprendiste sus diferencias. :sunglasses:
+* you met the procedures in the Python language, which are defined the same way as functions, but have a completely different goal; :eyes:
+* you started using both local and global variables, and learned about their differences; :sunglasses:
 
-¡Veamos que depara la siguiente lección! :eyes:
+Let's see what the next lesson will bring! :eyes:
