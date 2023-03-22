@@ -43,4 +43,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`is_safe_volume` returns a boolean"
   checked: true
-name: Bajemos el volumen
+name: Turning the music down
