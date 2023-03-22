@@ -1,5 +1,5 @@
-dias_sin_accidentes_con_velocirraptores = 0
+days_without_incidents_with_velociraptors = 0
 
-def pasar_un_dia_normal():
-  global dias_sin_accidentes_con_velocirraptores
-  dias_sin_accidentes_con_velocirraptores = dias_sin_accidentes_con_velocirraptores + 1
+def spend_a_normal_day():
+  global days_without_incidents_with_velociraptors
+  days_without_incidents_with_velociraptors = days_without_incidents_with_velociraptors + 1
