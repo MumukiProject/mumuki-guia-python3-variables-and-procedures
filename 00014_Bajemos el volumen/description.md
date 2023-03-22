@@ -1,18 +1,18 @@
-Fijate en el siguiente programa :
+Let's take a look at the following program:
 
 ```python
-volumen = 40
+volume = 40
 
-def subir_volumen(decibeles):
-	global volumen
-	volumen += decibeles
+def turn_volume_up(decibels):
+    global volume
+    volume += decibels
 
-def bajar_volumen(decibeles):
-	global volumen
-	volumen -= decibeles
+def turn_volume_down(decibels):
+    global volume
+    volume -= decibels
 
-def es_volumen_saludable():
-	return volumen <= 75
+def is_safe_volume():
+    return volume <= 75
 ```
 
-> Marcá las afirmaciones correctas:
+> Check the correct statements:
