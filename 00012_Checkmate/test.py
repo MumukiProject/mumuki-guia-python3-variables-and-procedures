@@ -1,26 +1,26 @@
   
-  def test_cebar_mate_disminuye_en_30_ml_el_agua_del_termo(self):
-    global agua_del_termo
-    agua_del_termo = 1000
-    cebar_mate()
-    self.assertEqual(agua_del_termo, 970)
+  def test_pour_water_decreases_30_ml_the_water_in_thermos(self):
+    global water_in_thermos
+    water_in_thermos = 1000
+    pour_water()
+    self.assertEqual(water_in_thermos, 970)
 
-  def test_cebar_3_mates_disminuye_en_90_ml_el_agua_del_termo(self):
-    global agua_del_termo
-    agua_del_termo = 1000
-    cebar_mate()
-    cebar_mate()
-    cebar_mate()
-    self.assertEqual(agua_del_termo, 910)
+  def test_pour_water_3_times_decreases_90_ml_the_water_in_thermos(self):
+    global water_in_thermos
+    water_in_thermos = 1000
+    pour_water()
+    pour_water()
+    pour_water()
+    self.assertEqual(water_in_thermos, 910)
     
-  def test_cebar_mate_aumenta_en_30_ml_el_agua_del_mate(self):
-    global agua_del_mate
-    agua_del_mate = 0
-    cebar_mate()
-    self.assertEqual(agua_del_mate, 30)
+  def test_pour_water_increases_30_ml_the_water_in_mate(self):
+    global water_in_mate
+    water_in_mate = 0
+    pour_water()
+    self.assertEqual(water_in_mate, 30)
     
-  def test_tomar_mate_deja_en_0_ml_el_agua_del_mate(self):
-    global agua_del_mate
-    agua_del_mate = 20
-    tomar_mate()
-    self.assertEqual(agua_del_mate, 0)
+  def test_drink_mate_assigns_0_to_water_in_mate(self):
+    global water_in_mate
+    water_in_mate = 20
+    drink_mate()
+    self.assertEqual(water_in_mate, 0)
