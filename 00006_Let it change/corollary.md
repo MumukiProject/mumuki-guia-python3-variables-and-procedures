@@ -1,0 +1,3 @@
+It has changed its value! Or, to put it technically, it has been mutated. But remember, just because you can do it, doesn't mean you have to!🙅 We won't always have to change the value of our variables. :relieved:
+
+If you're wondering why you need to add the `global` declaration, keep in mind that any global variable can be **read** by any function 👀. This is Python’s way of making sure we know that and still want to **write** them ✍️.
