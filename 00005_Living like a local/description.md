@@ -25,7 +25,7 @@ However, variables initialized directly in the program, called _global variables
 maximum_weight_of_baggage_in_grams = 5000
 
 def can_carry(luggage_weight):
-  return baggage_weight <= maximum_weight_of_baggage_in_grams
+  return luggage_weight <= maximum_weight_of_baggage_in_grams
 ````
  
 > As you may have noticed, we never forget to say hello, and this is no exception!
