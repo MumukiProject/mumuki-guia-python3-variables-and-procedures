@@ -11,7 +11,7 @@ def longest_without_spaces(a_string, another_string):
 	  return another_string_without_spaces
 ```
 
-Variables initialized within a `def`, known as _local variables_, are pretty straightforward, since they work exactly as we learned. However, you have to be extra careful :warning: since they can only be used within that definition. If you want to reference them in other place...
+Variables initialized within a `def`, known as _local variables_, are pretty straightforward, since they work exactly as we learned. However, you have to be extra careful :warning: since they can only be used within that definition. If you want to reference them in another place...
 
 ```python
 question = "" + a_string_without_spaces + "?"
