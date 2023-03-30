@@ -1,2 +1,2 @@
 expectation "It is necessary to use the variable `end_of_greeting` in all three branches of the conditional statements to avoid repeating logic. Keep in mind which sequences are repeated to assign them to this variable.":
-  count (uses `end_of_greeting`) = 4;
+  within `greet_to` count (uses `end_of_greeting`) = 4;
