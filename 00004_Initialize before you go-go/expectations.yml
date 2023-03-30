@@ -4,11 +4,14 @@ expectations:
   binding: "*"
   inspection: DeclaresFunction:elevator_overloaded
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: elevator_overloaded
-  inspection: Uses:average_person_weight_in_kilograms
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:elevator_overloaded
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: elevator_overloaded
   inspection: Uses:maximum_load_in_kilograms
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: elevator_overloaded
+  inspection: Uses:average_person_weight_in_kilograms
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:elevator_overloaded
+  inspection: Assigns:maximum_load_in_kilograms
