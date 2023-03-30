@@ -18,3 +18,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Not:Assigns:average_person_weight_in_kilograms
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: elevator_overloaded
+  inspection: UsesMultiply
