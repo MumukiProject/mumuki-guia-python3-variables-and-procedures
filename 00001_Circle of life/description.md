@@ -1,4 +1,4 @@
-_🦁 Here comes a ~lion~  lesson!_
+_🦁 Here comes a <del>lion</del> lesson!_
 
 In programming, we try to solve our problems with... :stuck_out_tongue_winking_eye: programs. And among the problems that almost no one wants to solve are mathematical problems. Especially ones that involve numbers, like π - _pi_ -, with infinite decimal places that are impossible to remember :head_bandage:
 
