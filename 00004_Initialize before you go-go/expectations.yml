@@ -2,6 +2,12 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
+  inspection: Assigns:maximum_load_in_kilograms
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Not:Assigns:average_person_weight_in_kilograms
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: DeclaresFunction:elevator_overloaded
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
@@ -12,12 +18,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: elevator_overloaded
   inspection: Uses:average_person_weight_in_kilograms
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: Assigns:maximum_load_in_kilograms
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: Not:Assigns:average_person_weight_in_kilograms
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: elevator_overloaded
   inspection: UsesMultiply
