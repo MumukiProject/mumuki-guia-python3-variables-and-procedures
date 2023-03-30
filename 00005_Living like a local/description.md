@@ -5,7 +5,7 @@ def longest_without_spaces(a_string, another_string):
   a_string_without_spaces = str.strip(a_string)
   another_string_without_spaces = str.strip(another_string)
  
-  if(len(a_string_without_spaces) > len(another_string_without_spaces)):
+  if len(a_string_without_spaces) > len(another_string_without_spaces):
 	  return a_string_without_spaces
   else:
 	  return another_string_without_spaces
