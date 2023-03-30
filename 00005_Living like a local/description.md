@@ -28,5 +28,5 @@ def can_carry(luggage_weight):
   return luggage_weight <= maximum_weight_of_baggage_in_grams
 ````
  
-> As you may have noticed, we never forget to say hello, and this is no exception!
+> :telephone_receiver: :musical_keyboard: _Hello, it's me_... we never forget to greet, and this is no exception!
 > Modify the `greet_to` function to avoid repeating logic. Use a local variable `end_of_greeting` in order to accomplish that.
