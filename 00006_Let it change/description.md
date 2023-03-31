@@ -20,7 +20,7 @@ However, we must be especially careful when working with global variables: if we
 days_without_incidents_with_velociraptors = 0
 
 def spend_a_normal_day():
-  # we tell Python that we are going to make modifications to the global variable
+  # we tell Python that we are going to make modifications to that global variable 
   global days_without_incidents_with_velociraptors
 
   # now we can update it
