@@ -16,7 +16,7 @@ days_without_incidents_with_velociraptors
 However, we must be especially careful when working with global variables: if we want to modify them inside a function, we must add a `global` declaration:
 
 ```python
-# initialize the variable at the beginning of our program
+# we initialize the variable at the beginning of our program
 days_without_incidents_with_velociraptors = 0
 
 def spend_a_normal_day():
