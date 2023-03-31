@@ -13,7 +13,7 @@ days_without_incidents_with_velociraptors = days_without_incidents_with_velocira
 days_without_incidents_with_velociraptors
 ```
 
-However, we must be especially careful when working with global variables: if we want to modify them inside a function, we declare it as `global`:
+However, we must be especially careful when working with global variables: if we want to modify them inside a function, we must add a `global` declaration:
 
 ```python
 # initialize the variable at the beginning of our program
