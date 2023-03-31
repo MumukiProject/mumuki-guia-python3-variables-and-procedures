@@ -3,7 +3,7 @@ _But why are they called variables if they don't vary?_ :face_with_raised_eyebro
 Well, it's just that they can actually vary :sunglasses: . Let's see a prehistoric example 🦖:
 
 ```python
-# initialize the variable to be 0...
+# we initialize the variable with 0...
 days_without_incidents_with_velociraptors = 0
 
 # ...and later, we update it
