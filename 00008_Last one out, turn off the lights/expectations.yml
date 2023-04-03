@@ -4,11 +4,14 @@ expectations:
   binding: "*"
   inspection: DeclaresProcedure:use_zip
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity0:use_zip
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: SourceContains:global
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: use_zip
   inspection: Assigns:backpack_open
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: use_zip
   inspection: Not:UsesIf
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: SourceContains:global
