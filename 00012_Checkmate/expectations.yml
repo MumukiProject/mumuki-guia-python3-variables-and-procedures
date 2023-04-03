@@ -2,13 +2,19 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresProcedure:cebar_mate
+  inspection: DeclaresProcedure:pour_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresProcedure:tomar_mate
+  inspection: DeclaresComputationWithArity0:pour_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity0:tomar_mate
+  inspection: DeclaresProcedure:drink_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Assigns:agua_del_mate
+  inspection: DeclaresComputationWithArity0:drink_mate
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity0:drink_mate
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Assigns:water_in_mate
