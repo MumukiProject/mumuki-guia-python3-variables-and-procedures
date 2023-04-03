@@ -21,3 +21,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: pour_water
   inspection: Not:Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: pour_water
+  inspection: UsesMinus
