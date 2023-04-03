@@ -24,3 +24,9 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: fill_thermos
   inspection: Assigns:water_in_thermos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: empty_thermos
+  inspection: Calls:global:WithReference:water_in_thermos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: fill_thermos
+  inspection: Calls:global:WithReference:water_in_thermos
