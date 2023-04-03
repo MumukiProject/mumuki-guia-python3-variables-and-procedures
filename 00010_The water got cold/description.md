@@ -2,5 +2,5 @@
 
 > Define the following procedures:
 >
-> * `empty_thermos` that removes all the `water_in_thermos`, that is, it leaves the variable at 0;
+> * `empty_thermos` that removes all the `water_in_thermos`, that is, it leaves that variable at 0;
 > * `fill_themos` which sets our variable back to 1000.
