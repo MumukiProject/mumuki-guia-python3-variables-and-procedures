@@ -11,7 +11,7 @@ def i_pass():
 >
 > 1. `water_in_mate`
 > 2. `water_in_thermos`
-> 3. `pour_water()'
+> 3. `pour_water()`
 > 4. `mate_water`
 > 5. `i_pass()`
 > 6. `mate_water`

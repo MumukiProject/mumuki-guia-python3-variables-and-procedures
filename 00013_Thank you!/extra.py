@@ -1,15 +1,15 @@
-agua_del_mate = 0
-agua_del_termo = 1000
+water_in_mate = 0
+water_in_thermos = 1000
 
-def cebar_mate():
-  global agua_del_mate
-  global agua_del_termo
-  agua_del_termo -= 30
-  agua_del_mate += 30
+def pour_mate():
+  global water_in_mate
+  global water_in_thermos
+  water_in_thermos -= 30
+  water_in_mate += 30
   
-def tomar_mate():
-  global agua_del_mate
-  agua_del_mate = 0
+def drink_mate():
+  global water_in_mate
+  water_in_mate = 0
   
-def pasar():
+def i_pass():
   pass
