@@ -16,7 +16,7 @@ expectations:
   binding: "*"
   inspection: DeclaresComputationWithArity0:pour_water
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: por_water
+  binding: pour_water
   inspection: Assigns:water_in_thermos
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: pour_water
