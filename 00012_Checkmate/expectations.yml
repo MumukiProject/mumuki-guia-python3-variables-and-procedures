@@ -8,16 +8,16 @@ expectations:
   inspection: DeclaresComputationWithArity0:pour_water
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: pour_water
-  inspection: Assigns:water_in_thermos
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: pour_water
-  inspection: Assigns:water_in_mate
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: pour_water
   inspection: Calls:global:WithReference:water_in_thermos
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: pour_water
   inspection: Calls:global:WithReference:water_in_mate
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: pour_water
+  inspection: Assigns:water_in_thermos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: pour_water
+  inspection: Assigns:water_in_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresProcedure:drink_mate
@@ -26,7 +26,7 @@ expectations:
   inspection: DeclaresComputationWithArity0:drink_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: drink_mate
-  inspection: Assigns:water_in_mate
+  inspection: Calls:globa:WithReference:water_in_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: drink_mate
-  inspection: Calls:globa:WithReference:water_in_mate
+  inspection: Assigns:water_in_mate
