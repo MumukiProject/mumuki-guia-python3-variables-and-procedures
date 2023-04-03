@@ -7,14 +7,17 @@ expectations:
   binding: "*"
   inspection: DeclaresComputationWithArity0:pour_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: pour_mate
+  inspection: Assigns:water_in_thermos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: pour_mate
+  inspection: Assigns:water_in_mate
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresProcedure:drink_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresComputationWithArity0:drink_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: DeclaresComputationWithArity0:drink_mate
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
+  binding: drink_mate
   inspection: Assigns:water_in_mate
