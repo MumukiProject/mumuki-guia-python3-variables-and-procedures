@@ -26,7 +26,7 @@ expectations:
   inspection: DeclaresComputationWithArity0:drink_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: drink_mate
-  inspection: Calls:globa:WithReference:water_in_mate
+  inspection: Calls:global:WithReference:water_in_mate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: drink_mate
   inspection: Assigns:water_in_mate
